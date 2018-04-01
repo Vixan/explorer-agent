@@ -59,6 +59,42 @@ py app.py
 The default maze is defined in /maze-solver/defs.py
  
 
+### Example
+
+```bash
+~/explorer-agent/maze-solver/
+$ py app.py
+_ _ _ _ _ _ _ _ _ _ _ _
+_ # _ _ # _ _ M _ _ T _
+_ # T _ # _ _ _ _ # _ _
+_ # _ _ # _ # # _ # _ _
+_ # # # # _ _ _ _ # _ _
+_ # _ _ _ _ _ _ _ # _ M
+_ # _ _ _ _ _ _ _ # _ _
+_ # _ _ _ _ _ _ _ _ _ _
+_ # _ _ _ _ _ # # # # _
+_ # _ _ _ _ _ _ _ _ _ _
+_ _ _ # # # # _ T _ _ _
+_ _ _ _ _ M _ _ _ _ _ _
+
+
+
+_ * * * * * * * * * _ _
+_ # * * # * * * * * * _
+_ # * * # * * * * # * *
+_ # _ * # * # # * # * *
+_ # # # # * * * * # * *
+_ # * * * * * * * # * *
+* # * * * * * * * # * *
+* # * * * * * * * * * *
+* # * * * * * # # # # *
+* # * * * * * * * * * *
+* * * # # # # * * * * *
+* * * * * * * * * * * *
+
+Final score -800
+```
+
 ## Authors
 
 * **Duca Vitalie-Alexandru** - *Development* - [Vixan](https://github.com/Vixan)
